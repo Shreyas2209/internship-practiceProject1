@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* links when active */
+.mobile-links {
+  position: relative;
+  transform: translateX(0%);
+  transition: 0.5s ease-in;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  background-color: rgba(27, 12, 12, 0.721);
+  list-style-type: none;
+}
+
+/* icon */
+.menu-icon {
+  color: rgb(234, 12, 12);
+  font-size: 50px;
+}
+
+/* contains logo and icon */
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 250, 154, 0.879);
+}
+
+/* logo */
+.logo {
+  margin-top: 8.5px;
+}
+
+/* links when inactive */
+.links-inactive {
+  position: relative;
+  transform: translateX(100%);
+  transition: 0.5s ease-in;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  background-color: rgba(27, 12, 12, 0.721);
+  list-style-type: none;
+}
